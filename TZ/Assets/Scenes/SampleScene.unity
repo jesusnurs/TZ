@@ -635,11 +635,48 @@ PrefabInstance:
       propertyPath: m_Name
       value: model
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: d5ef0312f2377ad42ab8ef1a328cb1d2,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 79c12ce08bacc344bad12b1ff0958baf, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d5ef0312f2377ad42ab8ef1a328cb1d2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1753229973}
   m_SourcePrefab: {fileID: 100100000, guid: d5ef0312f2377ad42ab8ef1a328cb1d2, type: 3}
+--- !u!1 &1753229972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d5ef0312f2377ad42ab8ef1a328cb1d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1753229971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1753229973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753229972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a960018c5a76f1d4bbc003bbefadca5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleAnimations:
+  - StandardIdle
+  - BreathingIdle
+  - HappyIdle
+  randomAnimations:
+  - Backflip
+  cheerAnimations: []
+  disappointmentAnimations: []
+  danceAnimations: []
+  randomInterval: {x: 5, y: 12}
 --- !u!1 &1877446874 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3b19b895aafb310428b4e0e69ddd4a09,
